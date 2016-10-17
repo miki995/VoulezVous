@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="O nama" />
+
+
+    </group>
+    <group android:checkableBehavior="single">
+    <item android:title="Meni">
+        <menu>
+            <item
+                android:id="@+id/menu"
+                android:icon="@drawable/menu"
+                android:title="Jelovnik" />
+            <item
+                android:id="@+id/drink"
+                android:icon="@drawable/drink"
+                android:title="Piće" />
+            <item
+                android:id="@+id/novo"
+                android:icon="@drawable/drink"
+                android:title="Novo u ponudi" />
+
+        </menu>
+    </item>
+    </group>
+    <group android:checkableBehavior="single">
+    <item android:title="Galerija">
+        <menu>
+            <item
+                android:id="@+id/pictures"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Slike lokala" />
+
+        </menu>
+    </item>
+</group>
+    <group android:checkableBehavior="single">
+
+    <item android:title="Drustvene mreze">
+        <menu>
+            <item
+                android:id="@+id/fb"
+                android:icon="@drawable/fb"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/insta"
+                android:icon="@drawable/insta"
+                android:title="Instagram" />
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Podeli sa prijateljima" />
+
+        </menu>
+    </item>
+
+</group>
+
+
+
+
+
+    <group android:checkableBehavior="single">
+    <item android:title="Lokacija">
+        <menu>
+            <item
+                android:id="@+id/map"
+                android:icon="@drawable/map"
+                android:title="Mapa" />
+
+
+        </menu>
+    </item>
+    </group>
+    <group android:checkableBehavior="single">
+    <item android:title="Kontakt">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/contact"
+                android:title="Pozovi-Naruči" />
+
+            <item
+                android:id="@+id/cform"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Posalji utiske" />
+
+
+
+        </menu>
+    </item>
+    </group>
+
+</menu>
